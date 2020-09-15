@@ -1,5 +1,4 @@
 float angle = radians(HALF_PI* frameCount);
-
 Table table;
 PImage earth;
 PShape globe;
@@ -10,17 +9,13 @@ void setup(){
   table = loadTable("covid.csv","header");
   noStroke();
   globe = createShape(SPHERE,r); 
-  
   globe.setTexture(earth);
-
 }
 void draw(){
   background(51);
-  
   translate(width*0.5, height*0.5);
   rotateY(angle);
-  angle += 0.05
- ;
+  angle += 0.05;
   lights();
   fill(200);
   noStroke();
@@ -45,7 +40,6 @@ void draw(){
   translate(x,y,z);
   rectMode(CENTER);
   rotate(angleb,raxis.x, raxis.y, raxis.z);
-  
   fill(255,0,0);
   box(h,1,1);
   fill(255,0,0);
