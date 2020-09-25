@@ -7,5 +7,5 @@ I have provided:-
 2) Data Set
 3) The world map used for globe visual
 
- 
+ ![Capture](https://user-images.githubusercontent.com/62427202/94245123-70dc6e80-ff37-11ea-9c7b-3c188e1d4830.PNG)
 
